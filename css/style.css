@@ -1,0 +1,402 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+/* Global Stylesheet Area */
+:root {
+
+    --logo-color: #21243D;
+    --primary-color: #777;
+    --another-primary-color: #6F6F6F;
+    --font-color: #878CFF;
+    --background-color: #000;
+    --border-color: #E2E2E2;
+    --text-color: #fff;
+    --bg-color: #FCFCFC;
+    --another-font-color: #535353;
+    font-size: 62.5%;
+
+
+}
+
+/* Default-font size 16px */
+/* rem==>1 rem=16px; */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+
+
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* Global Stylesheet End */
+
+/* Header Area Start */
+
+.header .header-flex-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+.header .header-logo a {
+    color: var(--logo-color);
+    font-size: 3.6rem;
+    line-height: 6rem;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 1rem;
+
+}
+
+nav {
+    padding: 1rem;
+}
+
+nav ul {
+    display: flex;
+    gap: 2.5rem;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    font-size: 2.5rem;
+    color: var(--background-color);
+    font-weight: 500;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-btn {
+    width: 13.8rem;
+    height: 5rem;
+    background-color: var(--background-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-btn a {
+    color: var(--text-color);
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+/* Header Area End */
+
+/* Hero Section Area Start */
+.hero {
+    margin-top: 20rem;
+}
+
+.hero-container {
+    text-align: center;
+}
+
+.hero-container h1 {
+    font-size: 4.4rem;
+    font-weight: 700;
+    line-height: 6rem;
+    color: var(--logo-color);
+}
+
+.heading-color {
+    color: var(--font-color);
+}
+
+.hero-container p {
+    color: var(--primary-color);
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 3.2rem;
+    margin-top: 1.5rem;
+}
+
+
+
+.download-btn {
+    background-color: var(--font-color);
+    display: inline-block;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+
+
+
+.download-btn a {
+    color: var(--text-color);
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 500;
+
+
+}
+
+/* Hero Section Area End */
+/* Mid Section Area Start */
+.mid-section {
+    margin-top: 10rem;
+    background-color: var(--bg-color);
+}
+
+.main-mid {
+    display: flex;
+    gap: 2rem;
+}
+
+.right-container {
+    margin-top: 4.4rem;
+}
+
+.right-container h2 {
+    font-size: 4rem;
+    font-weight: 700;
+
+}
+
+.mid-color {
+    color: var(--font-color);
+}
+
+.right-container p {
+    color: var(--another-font-color);
+    text-align: justify;
+    font-size: 1.7rem;
+    font-weight: 400;
+    margin-top: 1rem auto;
+}
+
+.right-container .mid-btn {
+    height: 4.8rem;
+    width: 15.2rem;
+    background-color: var(--font-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.2rem;
+}
+
+.right-container .mid-btn a {
+    text-decoration: none;
+    color: var(--text-color);
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+/* Mid Section Area End */
+/* Third-Section Area Start  */
+.third-section {
+    margin-top: 8.8rem;
+}
+
+.third-heading h2 {
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 700;
+
+}
+
+.third-color {
+    color: var(--font-color);
+}
+
+.sample {
+    margin-top: 5.2rem;
+    display: flex;
+    /* align-items: center;
+    justify-content: center; */
+}
+
+/* .sample img {
+    width: 40rem;
+} */
+
+.box-content {
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+}
+
+
+.box-content p {
+    font-size: 1.4rem;
+    color: var(--another-font-color);
+    justify-content: center;
+    align-items: center;
+    margin-left: 2rem;
+
+}
+
+.box-content a {
+    font-size: 1.6rem;
+    color: var(--font-color);
+    margin-left: 2rem;
+}
+
+
+
+/* Third-Section Area End  */
+/* Last-Section Area Start */
+.last-section {
+    margin-top: 10.1rem;
+}
+
+.last-heading h2 {
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 6rem;
+    color: var(--font-color);
+}
+
+.last-container {
+    margin: 3.5rem 0;
+    display: flex;
+    gap: 7rem;
+    width: 100%;
+
+}
+
+.last-box {
+    border: 1px solid #E2E2E2;
+    width: 50%;
+    padding: 5rem;
+    border-radius: 1rem;
+    box-shadow: #E2E2E2;
+}
+
+.last-box h4 {
+    color: var(--primary-color);
+    font-size: 1.6rem;
+    font-weight: 700;
+    margin-top: 1rem;
+}
+
+.last-box h3 {
+    font-size: 2.5rem;
+    color: var(--logo-color);
+    font-weight: 700;
+    margin-top: 1rem;
+}
+
+.last-box p {
+    color: var(--another-primary-color);
+    font-size: 1.3rem;
+    font-weight: 300;
+
+}
+
+.last-box-btn a {
+    color: var(--font-color);
+    font-size: 1.6rem;
+
+
+}
+
+/* Last-Section Area End */
+/* Footer Area Start */
+.footer {
+    background-color: var(--background-color);
+    margin-top: 4rem;
+}
+
+.icon {
+    padding: 2rem;
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.para p {
+    color: var(--text-color);
+    text-align: center;
+}
+
+/* Footer Area End */
+/* Media Query Area */
+@media(max-width:600px) {
+    html {
+        font-size: 50%;
+    }
+    
+    .header-flex-container{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav {
+        flex-direction: column;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav ul li a {
+    font-size: 1.4rem;
+    }
+    .header-btn a{
+        font-size: 1.3rem;
+
+    }
+    .hero-container h1{
+        font-size: 3rem;
+    }
+    .hero-container p{
+        font-size: 1.1rem;
+    }
+    .download-btn a{
+        font-size: 1.5rem;
+    }
+    .main-mid{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .right-container h2{
+        font-size: 2.8rem;
+    }
+    .right-container p{
+        font-size: 1.3rem;
+    }
+    .right-container .mid-btn a{
+        font-size: 1.2rem;
+    }
+    .third-heading h2{
+        font-size: 2.5rem;
+    }
+    /* .sample{
+        flex-direction: column;
+    } */
+    .box-content{
+        flex-direction: column;
+        align-items: center;
+        margin-left: 8rem;
+    }
+    .box-content p{
+        font-size: 1rem;
+        text-align: center;
+    }
+    
+    .box-content a{
+        font-size: 1rem;
+        margin-left: 18rem;
+    }
+    .last-container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .last-heading h2{
+        text-align: center;
+    }
+}
